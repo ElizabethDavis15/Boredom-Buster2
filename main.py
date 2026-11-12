@@ -1,13 +1,3 @@
-set_website_title("Boardom Buster")
-set_site_information(
-    author="Elizabeth Davis",
-    description="Order snacks for very good dogs.",
-    sources="Thanks to the Drafter docs and my study group.",
-    planning=["plan.pdf", "design.pdf"],
-    links=["https://github.com/your-username/your-repository"]
-)
-hide_debug_information()
-set_website_framed(False)
 from random import sample, shuffle
 from dataclasses import dataclass
 from drafter import *
